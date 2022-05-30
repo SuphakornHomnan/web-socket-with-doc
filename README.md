@@ -3,7 +3,7 @@
 ## Run socket
 
 ```
- cd socket server
+ cd socket
  yarn
  yarn start:dev
 ```
