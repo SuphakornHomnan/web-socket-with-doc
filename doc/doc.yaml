@@ -1,0 +1,27 @@
+asyncapi: 2.2.0
+info:
+  title: Demo send-recieve message
+  version: '0.1.0'
+channels:
+  send-message:
+    publish:
+      message:
+        description: send message
+        payload:
+          type: object
+          properties:
+            type:
+              type: string
+            value:
+              type: string
+  recieve-message:
+    subscribe:
+      message:
+        description: recieve messages
+        payload:
+          type: object
+          properties:
+            type:
+              type: string
+            value:
+              type: string
