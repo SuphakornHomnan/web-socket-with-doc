@@ -12,6 +12,7 @@
 
 ```
  cd doc
+ yarn
  yarn gen-doc
  yarn start
  
