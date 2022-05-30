@@ -14,4 +14,6 @@
  cd doc
  yarn gen-doc
  yarn start
+ 
+ ## localhost:4000/docs ==> for looking document
 ```
